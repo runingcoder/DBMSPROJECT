@@ -16,9 +16,12 @@ try installing that particular module without version)
 
 For Admin Account, please create one with superuser!
 
-//database ko lekhnai baaki cha.
-
 NEWproject folder maa seetings.py maa, database ko bhitra, name kei euta database
 already banaunu parcha mysql serve maa(in this case, employee). ANi, port number arkei cha
 bhane, tyei change garne.
+
+
+admin user banauna lei, type this in terminal 
+python manage.py createsuperuser 
+ani, website maa aucha
 

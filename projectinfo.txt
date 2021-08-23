@@ -1,16 +1,14 @@
-**Log on to codeastro.com for more projects!**
 
-**Developed By Raj Parmar**
+**Modified By Achyut Kayastha**
 
 **Instructions**
-After installing django and pip in your new project environment, (preferrably Pycharm maa )
-- Install the Requirements: pip install -r requirements.txt
-- Install the Requirement: pip install -r requirement.txt
+After installing django and pip in your new project environment, (preferrably Pycharm maa python 3.9.5 )
+- Install the Requirements: pip install -r newrequirements.txt
+
 
 
 (if some modules fails to get installed,
-try installing that particular module without version)(which is included in the above 
-instruction)
+try installing that particular module without version)
 
 - Then, make database migrations: python manage.py makemigrations
 - python manage.py migrate

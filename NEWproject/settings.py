@@ -143,11 +143,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATIC FILES WILL BE SERVED FROM STATIC_CDN WHEN WE ARE LIVE - OUT SIDE OF PROJECT
+# STATIC FILES WILL BE SERVED FROM newsatic WHEN WE ARE LIVE - OUT SIDE OF PROJECT
 STATIC_ROOT = os.path.join(BASE_DIR, 'newstatic')
 
 
-#THIS KEEPS THE PROJECT FILES - CSS/JS/IMAGES/FONTS
+#THIS KEEPS THE PROJECT FILES - CSS/JS/IMAGES/FONTS (this gets transferred to newstatic)
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static_in_proj','our_static'),
     os.path.join(BASE_DIR, 'static_cdn', 'static_root'),

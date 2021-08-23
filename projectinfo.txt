@@ -25,3 +25,4 @@ admin user banauna lei, type this in terminal
 python manage.py createsuperuser 
 ani, website maa aucha
 
+import employee1.sql ko contents in employee database

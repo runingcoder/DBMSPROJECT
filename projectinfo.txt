@@ -1,0 +1,22 @@
+**Log on to codeastro.com for more projects!**
+
+**Developed By Raj Parmar**
+
+**Instructions**
+After installing django and pip in your new project environment, (preferrably Pycharm maa )
+- Install the Requirements: pip install -r requirements.txt
+- Install the Requirement: pip install -r requirement.txt
+
+
+(if some modules fails to get installed,
+try installing that particular module without version)(which is included in the above 
+instruction)
+
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser!
+
+//database ko lekhnai baaki cha.
+

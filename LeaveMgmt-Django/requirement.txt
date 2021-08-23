@@ -1,0 +1,11 @@
+cryptography
+mysqlclient 
+numpy
+pandas 
+Pillow
+rcssmin
+reportlab
+rjsmin
+
+
+        

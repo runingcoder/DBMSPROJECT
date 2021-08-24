@@ -286,6 +286,7 @@ def leaves_view(request,id):
 		return redirect('/')
 
 	leave = get_object_or_404(Leave, id = id)
+	# that is basically try to get the objexts fromt he leave  class and if doesn not exist, show 404 instead of doesnotexist
 	print(leave.user)
 	employee = Employee.objects.filter(user = leave.user)[0]
 	print(employee)

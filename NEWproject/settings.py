@@ -50,9 +50,10 @@ INSTALLED_APPS = ['myapp',
                   'accounts',
                   'employee',
                   'leave',
+                  'debug_toolbar',
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -89,7 +90,7 @@ WSGI_APPLICATION = 'NEWproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'employee',
+            'NAME': 'employee',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': '127.0.0.1',
@@ -163,3 +164,6 @@ MEDIA_URL = '/media/'
 
 
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),'static_cdn','media_root')
+INTERNAL_IPS = [
+    '127.0.0.1',
+]

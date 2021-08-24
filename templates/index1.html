@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>Grad School HTML5 Template</title>
+    <title>United Learner's Academy</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -35,7 +35,7 @@ https://templatemo.com/tm-557-grad-school
   <!--header-->
   <header class="main-header clearfix" role="header">
     <div class="logo">
-      <a href="#"><em>Grad</em> School</a>
+      <a href="#"><em>United Learners's</em> School</a>
     </div>
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
@@ -54,7 +54,7 @@ https://templatemo.com/tm-557-grad-school
           </ul>
         </li>
 
-        <li><a href="{% url 'dashboard:dashboard' %}">Employee stuff</a></li>
+        <li><a href="{% url 'dashboard:dashboard' %}">Employee section</a></li>
          {% if user.is_authenticated %}
                                    <li>
                                         <a href="{% url 'Newwebtry:logout' %}"/>Logout</a>
@@ -77,11 +77,11 @@ https://templatemo.com/tm-557-grad-school
 
       <div class="video-overlay header-text">
           <div class="caption">
-              <h6>Graduate School of Django</h6>
+              <h6>Learning to be unlimited</h6>
             {% if user.is_authenticated%}
       <h1> Welcome {{user.username}}</h1>
          {% else %}
-         <h1 >Welcome random user!</h1>
+         <h1 >Welcome anonymous!</h1>
       {% endif %}
               <div class="main-button">
                   <div class="scroll-to-section"><a href="#section2">Learn more</a></div>
@@ -113,7 +113,7 @@ https://templatemo.com/tm-557-grad-school
           <div class="features-post second-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+                <h4><i class="fa fa-graduation-cap"></i>Virtual entertainment</h4>
               </div>
               <div class="content-hide">
                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
